@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href="../../../config/css/estilos.css">
+
+ <title> AGREGAR PRODUCTO </title>
+</head>
+<body class="login">
+<div> 
+<form id="AddProducto" method="POST" action="agregarProducto.php">
+    <div>
+        <label for="imagen">Imagen:</label>
+        <input type="file" name="image" id="image">
+      </div> 
+ <label for="nombre">Nombre Producto </label> <br> 
+ <input type="text" id="nombre" name="nombre" value="" placeholder="Ingrese el nombre del producto..."/>
+ <br>
+ <label for="descripcion">Descripcion (*)</label><br> 
+ <input type="text" id="descripcion" name="descripcion" value="" placeholder="Ingrese sla descripción..."/>
+ <br>
+ <label for="precio">Precio (*)</label><br> 
+ <input type="text" id="precio" name="precio" value="" placeholder="Ingrese el precio..."/>
+ <br>
+ 
+ <input class="button"type="submit" id="login" name="login" value="AGREGAR" />
+
+ </form>
+</div>
+</body>
+</html>
+

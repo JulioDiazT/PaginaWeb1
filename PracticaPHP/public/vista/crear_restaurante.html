@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../../config/css/estilos.css">
+ <meta charset="UTF-8">
+</head>
+<body>
+<section class ="login"> 
+ <form   method="POST" action="../controladores/crear_restaurante.php">
+
+ <label for="nombre">Nombre (*)</label> <br> 
+ <input type="text" id="nombre" name="nombre" value="" placeholder="Ingrese el nombre del restaurante ..."
+required/>
+ 
+ <br>
+ <label for="correo">Correo electrónico (*)</label>
+ <input type="email" id="correo" name="correo" value="" placeholder="Ingrese el correo electrónico
+..." required/>
+ <br>
+ <label for="correo">Contraseña (*)</label><br> 
+ <input type="password" id="contrasena" name="contrasena" value="" placeholder="Ingrese la
+contraseña ..." required/>
+ <br>
+ <br>
+ <input class="button" type="submit" id="crear" name="crear" value="Aceptar" />
+ <button class="button"> <a  href="index.php"> Cancelar </a> </button>
+ 
+ </form>
+</section>
+</body>
+</html>

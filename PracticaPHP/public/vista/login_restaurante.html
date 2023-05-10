@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../../config/css/estilos.css">
+ <meta charset="UTF-8">
+ <title>Iniciar sesión</title>
+</head>
+<body>
+    <button id="botonsuperior"> <a href="crear_restaurante.html"> registrarse</a> </button>
+ <form class="login" id="formulario01" method="POST" action="../controladores/login_restaurante.php">
+ <label for="correo">Correo electrónico </label>
+ <input type="text" id="correo" name="correo" value="" placeholder="Ingrese el correo ..."/>
+ <br>
+ <label for="nombres">Constraseña (*)</label>
+ <input type="password" id="contrasena" name="contrasena" value="" placeholder="Ingrese su
+contraseña ..."/>
+ <br>
+ <input class="button"type="submit" id="login" name="login" value="Iniciar Sesión" />
+
+ </form>
+
+</body>
+</html>
